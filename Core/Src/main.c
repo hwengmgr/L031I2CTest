@@ -20,6 +20,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "sps30_example_usage.h"
 #include <stdio.h>
 
 /* Private includes ----------------------------------------------------------*/
@@ -129,6 +130,10 @@ int main(void)
   	  }
   	}
   	printf("\r\n");
+
+  	//call routine to initialize and read sps30
+  	result = sps30_example_usage();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
