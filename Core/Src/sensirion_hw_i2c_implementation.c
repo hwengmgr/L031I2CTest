@@ -38,7 +38,8 @@
  * Create new I2C instance. You may also use a different interface, e.g. hi2c2,
  * depending on your CubeMX configuration
  */
-static I2C_HandleTypeDef hi2c1;
+//static I2C_HandleTypeDef hi2c1;
+extern I2C_HandleTypeDef hi2c1;
 
 /**
  * Initialize all hard- and software components that are needed for the I2C
